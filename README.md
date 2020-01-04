@@ -33,20 +33,13 @@
       compile project(':react-native-sift-sdk')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNSiftSdk.sln` in `node_modules/react-native-sift-sdk/windows/RNSiftSdk.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Sift.Sdk.RNSiftSdk;` to the usings at the top of the file
-  - Add `new RNSiftSdkPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
-
 ## Usage
 ```javascript
-import RNSiftSdk from 'react-native-sift-sdk';
+import Sift from 'react-native-sift-sdk';
 
-// TODO: What to do with the module?
-RNSiftSdk;
+Sift.initSdk(accountid, beaconkey); //init sdk
+
+Sift.setUserId(id); // set user id
+
+Sift.unsetUserId(); // unset user id on logout
 ```
-  
