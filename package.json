@@ -1,0 +1,33 @@
+{
+  "name": "react-native-sift-sdk",
+  "title": "React Native Sift SDK",
+  "version": "1.0.0",
+  "description": "At Sift (formerly Sift Science), we're building the world’s leading Digital Trust & Safety platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-sift-sdk.git",
+    "baseUrl": "https://github.com/github_account/react-native-sift-sdk"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Amit Assaraf",
+    "email": "amit@landa.app"
+  },
+  "license": "Apache-2.0",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "16.2.0",
+    "react-native": "^0.52.0"
+  },
+  "devDependencies": {
+    "react": "16.2.0",
+    "react-native": "^0.52.0"
+  }
+}

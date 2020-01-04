@@ -1,0 +1,16 @@
+PODS:
+  - Sift (1.0.1)
+
+DEPENDENCIES:
+  - Sift
+
+SPEC REPOS:
+  trunk:
+    - Sift
+
+SPEC CHECKSUMS:
+  Sift: b88d136789aec911712562cc72f6f715aba588fb
+
+PODFILE CHECKSUM: 486c28dfecd9a1919e1ba5a2ba0128036490cc01
+
+COCOAPODS: 1.8.4

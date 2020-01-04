@@ -1,0 +1,6 @@
+framework module Pods_RNSiftSdk {
+  umbrella header "Pods-RNSiftSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
