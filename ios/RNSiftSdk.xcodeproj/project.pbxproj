@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D046D0923C15AE1009A6474 /* Sift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D046D0823C15AE1009A6474 /* Sift.framework */; };
 		94968E0E341FA5DFBA7BEE34 /* Pods_RNSiftSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107402E60EED992339DB161A /* Pods_RNSiftSdk.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNSiftSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNSiftSdk.m */; };
 /* End PBXBuildFile section */
@@ -40,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D046D0923C15AE1009A6474 /* Sift.framework in Frameworks */,
 				94968E0E341FA5DFBA7BEE34 /* Pods_RNSiftSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

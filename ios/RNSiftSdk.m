@@ -1,4 +1,6 @@
 #import "RNSiftSdk.h"
+
+
 #import "Sift/Sift.h"
 
 @implementation RNSiftSdk
@@ -24,7 +26,6 @@ RCT_EXPORT_METHOD(setUserId:(NSString *) userId)
 {
   [[Sift sharedInstance] setUserId:userId];
 }
-
 
 RCT_EXPORT_METHOD(unsetUserId)
 {
