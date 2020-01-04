@@ -1,7 +1,7 @@
 {
   "name": "react-native-sift-sdk",
   "title": "React Native Sift SDK",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "At Sift (formerly Sift Science), we're building the world’s leading Digital Trust & Safety platform.",
   "main": "index.js",
   "scripts": {

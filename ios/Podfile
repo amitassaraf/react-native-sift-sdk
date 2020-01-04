@@ -6,6 +6,7 @@ target 'RNSiftSdk' do
   use_frameworks!
 
   # Pods for RNSiftSdk
-end
+  
+  pod 'Sift'
 
-pod 'Sift'
+end
