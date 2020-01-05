@@ -27,8 +27,6 @@
 		107402E60EED992339DB161A /* Pods_RNSiftSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNSiftSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		134814201AA4EA6300B7C361 /* libRNSiftSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSiftSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A50C306C65E3A0ACD84C9C /* Pods-RNSiftSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSiftSdk.release.xcconfig"; path = "Target Support Files/Pods-RNSiftSdk/Pods-RNSiftSdk.release.xcconfig"; sourceTree = "<group>"; };
-		8D046D0623C15AC2009A6474 /* Sift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Sift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D046D0823C15AE1009A6474 /* Sift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Sift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2A1EE3B7241021EA061B5F /* Pods-RNSiftSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSiftSdk.debug.xcconfig"; path = "Target Support Files/Pods-RNSiftSdk/Pods-RNSiftSdk.debug.xcconfig"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNSiftSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSiftSdk.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNSiftSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSiftSdk.m; sourceTree = "<group>"; };
@@ -68,8 +66,6 @@
 		6C2A460BED171C3B3EABB6E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D046D0823C15AE1009A6474 /* Sift.framework */,
-				8D046D0623C15AC2009A6474 /* Sift.framework */,
 				107402E60EED992339DB161A /* Pods_RNSiftSdk.framework */,
 			);
 			name = Frameworks;
