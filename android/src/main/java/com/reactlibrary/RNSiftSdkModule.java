@@ -4,9 +4,10 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
+import com.facebook.react.bridge.LifecycleEventListener;
 import siftscience.android.Sift;
 
-public class RNSiftSdkModule extends ReactContextBaseJavaModule {
+public class RNSiftSdkModule extends ReactContextBaseJavaModule implements LifecycleEventListener {
 
     private final ReactApplicationContext reactContext;
 
@@ -44,7 +45,7 @@ public class RNSiftSdkModule extends ReactContextBaseJavaModule {
 
     @Override
     public void onHostResume() {
-        Sift.resume(activity);
+        Sift.resume(reactContext);
     }
 
     @Override
