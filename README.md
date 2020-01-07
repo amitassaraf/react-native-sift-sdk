@@ -2,11 +2,11 @@
 
 ## Getting started
 
-`$ npm install react-native-sift-sdk --save`
+`$ yarn add react-native-sift-sdk`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-sift-sdk`
+`$ yarn react-native link react-native-sift-sdk`
 
 ### Manual installation
 
